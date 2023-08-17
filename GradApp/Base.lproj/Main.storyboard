@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_6_8272503083" translatesAutoresizingMaskIntoConstraints="NO" id="6gb-4d-lP2">
+                                <rect key="frame" x="67" y="46" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="v7z-kc-UNJ">
+                                <rect key="frame" x="104" y="74" width="167" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="Q5g-xz-rf2">
+                                <rect key="frame" x="164" y="104" width="47" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Здравствена грижа" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe3-hf-HDs">
+                                <rect key="frame" x="108" y="182" width="159" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_9_5152557749" translatesAutoresizingMaskIntoConstraints="NO" id="hme-mo-r6S">
+                                <rect key="frame" x="7" y="189" width="361" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Е-пошта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tPQ-O9-7qL">
+                                <rect key="frame" x="51" y="243" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Лозинка" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YvJ-Z4-4cN">
+                                <rect key="frame" x="51" y="285" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqG-WO-sw9">
+                                <rect key="frame" x="51" y="469" width="284" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Креирај сметка">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="signupTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wab-nP-NlX"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Улога (доктор, пациент, админ.)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dkU-Pd-KAi">
+                                <rect key="frame" x="51" y="411" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" textContentType="organization-title"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Име" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2kh-xB-qSO">
+                                <rect key="frame" x="51" y="327" width="183" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Презиме" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cNg-N3-8I0">
+                                <rect key="frame" x="51" y="369" width="183" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" textContentType="family-name"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QdJ-Uy-gz5">
+                                <rect key="frame" x="242" y="327" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fW-LC-L6m">
+                                <rect key="frame" x="165" y="514" width="56" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Најава"/>
+                                <connections>
+                                    <action selector="bottomButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dWG-2C-MtV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="belaSlika1" destination="v7z-kc-UNJ" id="DKM-5x-ldq"/>
+                        <outlet property="belaSlika2" destination="Q5g-xz-rf2" id="Jnf-VW-jj5"/>
+                        <outlet property="blankField" destination="hme-mo-r6S" id="NpA-Hi-8hQ"/>
+                        <outlet property="bottomButton" destination="4fW-LC-L6m" id="Fv1-ZR-WmP"/>
+                        <outlet property="dejnost" destination="dkU-Pd-KAi" id="nE2-36-oK6"/>
+                        <outlet property="email" destination="tPQ-O9-7qL" id="l00-ns-OBf"/>
+                        <outlet property="ime" destination="2kh-xB-qSO" id="nu0-z6-Sek"/>
+                        <outlet property="password" destination="YvJ-Z4-4cN" id="R2H-Ve-1OE"/>
+                        <outlet property="prezime" destination="cNg-N3-8I0" id="yly-dJ-Kgt"/>
+                        <outlet property="slikaUser" destination="QdJ-Uy-gz5" id="moW-AB-mLe"/>
+                        <outlet property="srce" destination="6gb-4d-lP2" id="RgJ-F5-KVc"/>
+                        <outlet property="topButton" destination="VqG-WO-sw9" id="9HB-AP-zEU"/>
+                        <outlet property="zdravstvoTekst" destination="Fe3-hf-HDs" id="NUl-mB-Ha5"/>
+                        <segue destination="oOH-eq-hb4" kind="show" identifier="adminSegue" id="YjP-Il-yD7"/>
+                        <segue destination="uju-Gw-MVh" kind="show" identifier="patientSegue" id="QCj-IS-22d"/>
+                        <segue destination="Sy0-d8-8S2" kind="show" identifier="doctorSegue" id="Edp-Mj-Gqy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1370" y="-20"/>
+        </scene>
+        <!--Пронајди доктор-->
+        <scene sceneID="PLP-OY-Kba">
+            <objects>
+                <tableViewController id="Lrg-Uz-tNA" customClass="DoctorsSpecialistsListTableViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="den-pT-HJx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="doctorsCell2" id="Wsr-JJ-hc2">
+                                <rect key="frame" x="16" y="55.5" width="343" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wsr-JJ-hc2" id="zEs-yg-9gJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lrg-Uz-tNA" id="Mfc-Bx-Gub"/>
+                            <outlet property="delegate" destination="Lrg-Uz-tNA" id="pV3-d1-Wy4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Пронајди доктор" id="O0G-Kg-JUy">
+                        <barButtonItem key="leftBarButtonItem" title="Одјава" style="done" id="AKl-2V-4Xs">
+                            <connections>
+                                <action selector="logout:" destination="Lrg-Uz-tNA" id="PA3-ZL-egW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Мои прегледи" style="done" id="iS2-4f-4Ux">
+                            <connections>
+                                <action selector="moiPregledi:" destination="Lrg-Uz-tNA" id="XRM-oE-z2o"/>
+                                <segue destination="ap1-oe-xKy" kind="show" identifier="anotherSegue" id="K4e-1c-tTk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="oVW-aS-jk0" kind="show" identifier="info2Segue" id="SzL-Nm-TAM"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8y-P1-5us" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="-20"/>
+        </scene>
+        <!--Мои доктори-->
+        <scene sceneID="dCy-Bu-G1R">
+            <objects>
+                <tableViewController id="WIb-nh-HS0" customClass="PatientsAppointmentsListTableViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="4ad-AE-tdI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="appointments2Cell" id="Gnr-yO-AzB">
+                                <rect key="frame" x="16" y="55.5" width="343" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gnr-yO-AzB" id="s0r-fD-Una">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="WIb-nh-HS0" id="pMv-5g-Bvk"/>
+                            <outlet property="delegate" destination="WIb-nh-HS0" id="AtU-zQ-OHh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Мои доктори" id="t9O-Bn-a2A"/>
+                    <connections>
+                        <segue destination="mdc-zz-oEw" kind="show" identifier="nextSegue" id="GSd-6h-pWu"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Riq-7X-44D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2388" y="-826"/>
+        </scene>
+        <!--Patients Appointments Data View Controller-->
+        <scene sceneID="wIU-FZ-3mQ">
+            <objects>
+                <viewController id="mdc-zz-oEw" customClass="PatientsAppointmentsDataViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p82-oP-MiG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gotovoa" translatesAutoresizingMaskIntoConstraints="NO" id="gTD-Ar-tAU">
+                                <rect key="frame" x="-296" y="81" width="966" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6u5-fw-rQQ">
+                                <rect key="frame" x="16" y="56" width="123" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ПЗУ Болница Венера" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOi-fJ-SbB">
+                                <rect key="frame" x="147" y="119" width="223" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <color key="textColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Преглед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91F-Rs-PvH">
+                                <rect key="frame" x="153" y="202" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Код на пациент:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITT-so-Fmq">
+                                <rect key="frame" x="13" y="234" width="108" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Датум на преглед:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ad-6p-2fe">
+                                <rect key="frame" x="13" y="309" width="122" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Име и презиме:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsf-Jw-dK0">
+                                <rect key="frame" x="13" y="259" width="103" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Прегледал:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPd-7e-l1d">
+                                <rect key="frame" x="13" y="334" width="76" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEC-LV-511">
+                                <rect key="frame" x="126" y="232" width="206" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLB-Wz-1Q8">
+                                <rect key="frame" x="124" y="257" width="154" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPh-tm-UzZ">
+                                <rect key="frame" x="136" y="307" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s60-0W-1p4">
+                                <rect key="frame" x="90" y="332" width="149" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_9_5152557749" translatesAutoresizingMaskIntoConstraints="NO" id="tL2-bv-SPT">
+                                <rect key="frame" x="0.0" y="359" width="375" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Симптоми:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkm-jk-ZUj">
+                                <rect key="frame" x="13" y="369" width="72" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BNE-l0-3Mu">
+                                <rect key="frame" x="14" y="387" width="337" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_12_7614191351" translatesAutoresizingMaskIntoConstraints="NO" id="Svj-th-vaY">
+                                <rect key="frame" x="0.0" y="436" width="375" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Датум на раѓање:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLp-ft-9Cg">
+                                <rect key="frame" x="13" y="284" width="117" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Дијагноза:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybo-gU-0OV">
+                                <rect key="frame" x="16" y="446" width="69" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BCC-wP-SVd">
+                                <rect key="frame" x="13" y="464" width="346" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_12_7614191351" translatesAutoresizingMaskIntoConstraints="NO" id="r0M-ey-qHa">
+                                <rect key="frame" x="-13" y="510" width="400" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Терапија:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEI-wB-ghE">
+                                <rect key="frame" x="14" y="520" width="63" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-Av-YYR">
+                                <rect key="frame" x="18" y="545" width="338" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgM-JC-gyr">
+                                <rect key="frame" x="132" y="275" width="112" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu3-mc-L9f">
+                                <rect key="frame" x="78" y="590" width="220" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Изврши го ажурирањето">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kopceKlik:" destination="mdc-zz-oEw" eventType="touchUpInside" id="T5i-Dj-TUj"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilM-Gb-POj">
+                                <rect key="frame" x="275" y="234" width="84" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byj-bd-WY9">
+                                <rect key="frame" x="316" y="325" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <state key="normal" title="Оцени">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kopceOcenka:" destination="mdc-zz-oEw" eventType="touchUpInside" id="VF8-0t-7Dx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="383-7W-RAU">
+                                <rect key="frame" x="258" y="323" width="50" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uBh-1P-G7w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0xL-SN-y1O"/>
+                    <connections>
+                        <outlet property="datumNaPregledLabel" destination="5Ad-6p-2fe" id="zcX-zU-eYM"/>
+                        <outlet property="datumRaganje" destination="nLp-ft-9Cg" id="ANg-dC-hKp"/>
+                        <outlet property="datumraganjeTF" destination="jgM-JC-gyr" id="58h-7c-Srt"/>
+                        <outlet property="dijagnoza" destination="ybo-gU-0OV" id="aB7-P6-ry7"/>
+                        <outlet property="dijagnozaTV" destination="BCC-wP-SVd" id="Tut-ti-MV9"/>
+                        <outlet property="imeprezimeInsertLabel" destination="VLB-Wz-1Q8" id="ZYX-IS-Rzy"/>
+                        <outlet property="imeprezimeLabel" destination="dsf-Jw-dK0" id="4kg-On-YFt"/>
+                        <outlet property="kodLabel" destination="ITT-so-Fmq" id="fpl-ai-yUY"/>
+                        <outlet property="kodinsertLabel" destination="WEC-LV-511" id="Y2b-Bn-Kn6"/>
+                        <outlet property="kopce" destination="pu3-mc-L9f" id="xfp-vO-jnW"/>
+                        <outlet property="kopceOcenka" destination="Byj-bd-WY9" id="Zck-pM-FTX"/>
+                        <outlet property="labelDatumInsert" destination="XPh-tm-UzZ" id="FNG-lJ-XMl"/>
+                        <outlet property="ocenkaTF" destination="383-7W-RAU" id="IiT-Ec-nbx"/>
+                        <outlet property="pergledd" destination="91F-Rs-PvH" id="4U0-xD-R6u"/>
+                        <outlet property="pozadinska" destination="gTD-Ar-tAU" id="ShU-zL-c19"/>
+                        <outlet property="pregledalInsertLabel" destination="s60-0W-1p4" id="krK-pU-pgV"/>
+                        <outlet property="pregledalLabel" destination="XPd-7e-l1d" id="yyz-Br-c5N"/>
+                        <outlet property="pzu" destination="GOi-fJ-SbB" id="dOR-ca-ZZj"/>
+                        <outlet property="separator1" destination="tL2-bv-SPT" id="0P9-F7-XQ2"/>
+                        <outlet property="separator2" destination="Svj-th-vaY" id="fkn-KC-1oB"/>
+                        <outlet property="separator3" destination="r0M-ey-qHa" id="zcu-4B-XKw"/>
+                        <outlet property="simptomi" destination="nkm-jk-ZUj" id="ths-aS-iz0"/>
+                        <outlet property="simptomiTF" destination="BNE-l0-3Mu" id="7d1-2t-W7T"/>
+                        <outlet property="slika" destination="6u5-fw-rQQ" id="0lD-7l-nzp"/>
+                        <outlet property="slika23" destination="ilM-Gb-POj" id="0QD-zC-Ugh"/>
+                        <outlet property="terapija" destination="EEI-wB-ghE" id="avO-ZN-ajY"/>
+                        <outlet property="terapijaTV" destination="4ha-Av-YYR" id="HNz-fB-Nrt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vjg-gH-OLH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3102" y="-826"/>
+        </scene>
+        <!--Мои прегледи-->
+        <scene sceneID="0Hu-ID-NXp">
+            <objects>
+                <tableViewController id="H8Q-9D-YRn" customClass="DoctorsPatientsListTableViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="D80-r1-ebo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="appointments3Cell" id="n1D-Pl-zNf">
+                                <rect key="frame" x="16" y="55.5" width="343" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n1D-Pl-zNf" id="icV-gS-fH6">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="H8Q-9D-YRn" id="Dod-cp-1UX"/>
+                            <outlet property="delegate" destination="H8Q-9D-YRn" id="cbZ-Bw-Xob"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Мои прегледи" id="Woj-Sq-gYA">
+                        <barButtonItem key="leftBarButtonItem" title="Одјава" style="done" id="VsQ-hi-LeW">
+                            <connections>
+                                <action selector="logout:" destination="H8Q-9D-YRn" id="eR3-zG-E3u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="8Bn-0c-Cqr" kind="show" identifier="lalaSegue" id="cB3-7m-Cqz"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="prV-d2-Uxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="-826"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LzD-Jr-CsY">
+            <objects>
+                <navigationController id="Sy0-d8-8S2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iMB-F1-JH2"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6cy-Vg-Yzo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="H8Q-9D-YRn" kind="relationship" relationship="rootViewController" id="pIj-HJ-LYf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yg4-eS-uoc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="-826"/>
+        </scene>
+        <!--Doctors Patients Data View Controller-->
+        <scene sceneID="kOZ-pL-GTb">
+            <objects>
+                <viewController id="8Bn-0c-Cqr" customClass="DoctorsPatientsDataViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z0y-gz-auO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gotovoa" translatesAutoresizingMaskIntoConstraints="NO" id="zvh-AH-ckz">
+                                <rect key="frame" x="-84" y="81" width="543" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dXU-br-AWn">
+                                <rect key="frame" x="16" y="56" width="121" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ПЗУ Болница Венера" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egU-6V-3Cv">
+                                <rect key="frame" x="145" y="123" width="223" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <color key="textColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Преглед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lc2-V7-6tc">
+                                <rect key="frame" x="161" y="190" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Код на пациент:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVh-Fd-BDG">
+                                <rect key="frame" x="16" y="219" width="108" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Име и презиме:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyi-Ig-vJm">
+                                <rect key="frame" x="16" y="244" width="103" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Датум на раѓање:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqO-hJ-BCN">
+                                <rect key="frame" x="16" y="269" width="117" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Датум на преглед:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3f-Bj-kCR">
+                                <rect key="frame" x="16" y="294" width="122" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Прегледал:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6G3-R7-2Od">
+                                <rect key="frame" x="16" y="319" width="76" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4x5-ep-eWR">
+                                <rect key="frame" x="125" y="219" width="165" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-PE-9rQ">
+                                <rect key="frame" x="125" y="244" width="131" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RS-2k-Q4H">
+                                <rect key="frame" x="134" y="269" width="152" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xo-S2-6Fa">
+                                <rect key="frame" x="100" y="319" width="156" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dwz-5d-xMs">
+                                <rect key="frame" x="142" y="285" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6nH-kO-GfK">
+                                <rect key="frame" x="264" y="231" width="93" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gotovoa" translatesAutoresizingMaskIntoConstraints="NO" id="pyt-Hl-hN2">
+                                <rect key="frame" x="0.0" y="344" width="375" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Симптоми:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSc-8g-qXW">
+                                <rect key="frame" x="16" y="355" width="72" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rmY-J3-WS6">
+                                <rect key="frame" x="16" y="380" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gotovoa" translatesAutoresizingMaskIntoConstraints="NO" id="sZn-Rc-I5A">
+                                <rect key="frame" x="0.0" y="433" width="375" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Дијагноза:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-vq-Ggc">
+                                <rect key="frame" x="16" y="444" width="69" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MFr-mf-pVR">
+                                <rect key="frame" x="16" y="469" width="341" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gotovoa" translatesAutoresizingMaskIntoConstraints="NO" id="BA3-ba-E4K">
+                                <rect key="frame" x="0.0" y="511" width="375" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Терапија:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJw-8e-TTi">
+                                <rect key="frame" x="16" y="522" width="63" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pl6-vL-38Q">
+                                <rect key="frame" x="19" y="547" width="338" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj8-ZP-CYM">
+                                <rect key="frame" x="80" y="589" width="231" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Изврши го ажурирањето">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kopceKlik:" destination="8Bn-0c-Cqr" eventType="touchUpInside" id="KfK-2N-sBn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Z3f-Hf-Qzd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hR8-p9-bRP"/>
+                    <connections>
+                        <outlet property="datumPregled" destination="B3f-Bj-kCR" id="AYl-OK-PNW"/>
+                        <outlet property="datumPregledLabel" destination="Dwz-5d-xMs" id="p73-o9-DvE"/>
+                        <outlet property="datumRaganje" destination="rqO-hJ-BCN" id="BOi-q7-57a"/>
+                        <outlet property="datumRaganjeLabel" destination="2RS-2k-Q4H" id="Pzw-Xl-ieo"/>
+                        <outlet property="dijagnoza" destination="NHj-vq-Ggc" id="Bvm-Ye-Sk2"/>
+                        <outlet property="dijagnozaTF" destination="MFr-mf-pVR" id="vEX-UN-k0X"/>
+                        <outlet property="imePrezime" destination="oyi-Ig-vJm" id="uuW-2R-hRy"/>
+                        <outlet property="imePrezimeLabel" destination="T3U-PE-9rQ" id="cyI-yw-8sd"/>
+                        <outlet property="kodPacient" destination="AVh-Fd-BDG" id="fl1-xT-0Li"/>
+                        <outlet property="kodPacientLabel" destination="4x5-ep-eWR" id="wv0-UW-qcr"/>
+                        <outlet property="kopce" destination="cj8-ZP-CYM" id="nqC-fi-nGj"/>
+                        <outlet property="logo" destination="dXU-br-AWn" id="JxM-FT-csG"/>
+                        <outlet property="naslov" destination="egU-6V-3Cv" id="COX-Ku-apz"/>
+                        <outlet property="pozadina" destination="zvh-AH-ckz" id="eWG-AI-HS6"/>
+                        <outlet property="pregled" destination="lc2-V7-6tc" id="QdZ-ds-yHx"/>
+                        <outlet property="pregledal" destination="6G3-R7-2Od" id="4wF-Nn-yKZ"/>
+                        <outlet property="pregledalLabel" destination="5xo-S2-6Fa" id="q8r-D0-BcY"/>
+                        <outlet property="separator1" destination="pyt-Hl-hN2" id="H8U-92-u2R"/>
+                        <outlet property="separator2" destination="sZn-Rc-I5A" id="XXH-kb-dZ0"/>
+                        <outlet property="separator3" destination="BA3-ba-E4K" id="Rbt-Vn-i7C"/>
+                        <outlet property="simptomi" destination="TSc-8g-qXW" id="kqF-eR-OKk"/>
+                        <outlet property="simptomiTV" destination="rmY-J3-WS6" id="6TS-2d-Xzy"/>
+                        <outlet property="slika24" destination="6nH-kO-GfK" id="F2W-Nn-dyU"/>
+                        <outlet property="terapijTF" destination="Pl6-vL-38Q" id="DnM-FS-TcW"/>
+                        <outlet property="terapija" destination="MJw-8e-TTi" id="YmA-XB-he4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAQ-RG-1A9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="-826"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KBq-8a-KvY">
+            <objects>
+                <navigationController id="ap1-oe-xKy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="01a-kh-v8W"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TFS-SX-lw2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WIb-nh-HS0" kind="relationship" relationship="rootViewController" id="dTv-xO-qnM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYx-Yj-xV1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="-826"/>
+        </scene>
+        <!--Doctors Specialists Data View Controller-->
+        <scene sceneID="Oml-QD-dpL">
+            <objects>
+                <viewController id="oVW-aS-jk0" customClass="DoctorsSpecialistsDataViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l3Z-z9-I7b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9E-J1-cCz">
+                                <rect key="frame" x="150" y="92" width="225" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cq1-KL-l9J">
+                                <rect key="frame" x="16" y="80" width="126" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyF-ni-cdv">
+                                <rect key="frame" x="150" y="121" width="225" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmW-uK-7oI">
+                                <rect key="frame" x="150" y="150" width="170" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uB-LY-tqV">
+                                <rect key="frame" x="150" y="179" width="209" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slikaNova" translatesAutoresizingMaskIntoConstraints="NO" id="qEG-gA-5vf">
+                                <rect key="frame" x="-67" y="214" width="509" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_9_5152557749" translatesAutoresizingMaskIntoConstraints="NO" id="dvC-Nn-PwW">
+                                <rect key="frame" x="-46" y="272" width="467" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Едукација и кариера" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pm2-nd-Tir">
+                                <rect key="frame" x="54" y="231" width="267" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <color key="textColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7vd-tC-YGV">
+                                <rect key="frame" x="54" y="308" width="267" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyQ-Tw-OMD">
+                                <rect key="frame" x="55" y="564" width="266" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Закажи преглед">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kopceKlik:" destination="oVW-aS-jk0" eventType="touchUpInside" id="sbT-vA-6hH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q86-Z5-rs0">
+                                <rect key="frame" x="23" y="621" width="291" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dGh-aA-pPe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yuH-k8-Qhf"/>
+                    <connections>
+                        <outlet property="kopce" destination="lyQ-Tw-OMD" id="WTg-9P-hVR"/>
+                        <outlet property="labelAbout" destination="pm2-nd-Tir" id="U0L-Q4-aRV"/>
+                        <outlet property="labelNoOfRaters" destination="9uB-LY-tqV" id="S2k-Ub-1xG"/>
+                        <outlet property="labelReview" destination="XmW-uK-7oI" id="in2-Pl-UCy"/>
+                        <outlet property="labelSpecialty" destination="KyF-ni-cdv" id="8IB-Rf-SFS"/>
+                        <outlet property="labl" destination="f9E-J1-cCz" id="Bvk-E3-sw1"/>
+                        <outlet property="pomos" destination="q86-Z5-rs0" id="lfL-gZ-czZ"/>
+                        <outlet property="slikaBela" destination="dvC-Nn-PwW" id="cbH-i3-rEm"/>
+                        <outlet property="slikaDr" destination="cq1-KL-l9J" id="82M-xA-BOe"/>
+                        <outlet property="slikaPlava" destination="qEG-gA-5vf" id="pka-Rh-WgY"/>
+                        <outlet property="textView" destination="7vd-tC-YGV" id="qUl-Io-tVg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xip-La-iOY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673" y="-20"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KRo-vh-8Wa">
+            <objects>
+                <navigationController id="uju-Gw-MVh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4KR-Ue-0C6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="54U-m6-TFe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Lrg-Uz-tNA" kind="relationship" relationship="rootViewController" id="S1I-9I-IUS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZ0-fQ-RQk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="-20"/>
+        </scene>
+        <!--Внеси податоци-->
+        <scene sceneID="glI-VE-tu7">
+            <objects>
+                <tableViewController id="o1Z-cd-o7o" customClass="DoctorsListTableViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="h2Q-6c-jcH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99208098649999998" green="0.99219959970000005" blue="0.99204069380000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="doctorsCell" id="f3q-MJ-vfk">
+                                <rect key="frame" x="16" y="55.5" width="343" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f3q-MJ-vfk" id="Zfl-dM-YCi">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.9999235272" green="1" blue="0.99988299609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="o1Z-cd-o7o" id="W7v-nn-dP8"/>
+                            <outlet property="delegate" destination="o1Z-cd-o7o" id="NmK-zR-bOJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Внеси податоци" id="ZiM-b2-BA1">
+                        <barButtonItem key="leftBarButtonItem" title="Одјава" style="done" id="nb2-jB-AY7">
+                            <color key="tintColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="logoutTapped:" destination="o1Z-cd-o7o" id="ogI-Yr-4Uf"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Прегледи" style="done" id="RhT-JJ-BmQ">
+                            <color key="tintColor" red="0.045348815620000003" green="0.45288360119999999" blue="0.89123779540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="clickButton:" destination="o1Z-cd-o7o" id="kKb-4D-2fH"/>
+                                <segue destination="j9v-hh-qYO" kind="show" identifier="clickSegue" id="gfD-yw-8Ao"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="qA3-WE-Ino" kind="show" identifier="infoSegue" id="AOs-nG-X1w"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4TZ-Ht-ZAM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="719"/>
+        </scene>
+        <!--Doctors Data View Controller-->
+        <scene sceneID="60F-KF-fie">
+            <objects>
+                <viewController id="qA3-WE-Ino" customClass="DoctorsDataViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2x-Ha-hPo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Zx-6T-fwK">
+                                <rect key="frame" x="-17" y="40" width="408" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools (1)" translatesAutoresizingMaskIntoConstraints="NO" id="1bj-i4-dy9">
+                                <rect key="frame" x="-136" y="157" width="647" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZV-Dl-iSP">
+                                <rect key="frame" x="64" y="554" width="247" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Изврши го ажурирањето">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="qA3-WE-Ino" eventType="touchUpInside" id="w4O-Lz-WAc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cW2-gt-4mo">
+                                <rect key="frame" x="34" y="177" width="204" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-cV-v8h">
+                                <rect key="frame" x="0.0" y="56" width="125" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="9Vd-MM-K8F">
+                                <rect key="frame" x="242" y="56" width="133" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-lT-AxE">
+                                <rect key="frame" x="0.0" y="545" width="65" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="wNW-Bw-lLa">
+                                <rect key="frame" x="309" y="493" width="66" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bela slika" translatesAutoresizingMaskIntoConstraints="NO" id="zfi-Nm-S26">
+                                <rect key="frame" x="64" y="588" width="247" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Внеси специјализација" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jsK-Eh-KVc">
+                                <rect key="frame" x="64" y="260" width="247" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Внеси образование и работно искуство" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NtJ-Ob-p83">
+                                <rect key="frame" x="64" y="348" width="247" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_12_7614191351" translatesAutoresizingMaskIntoConstraints="NO" id="X7d-13-dcT">
+                                <rect key="frame" x="-11" y="117" width="397" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wuI-Eg-ald"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fqb-TY-QRi"/>
+                    <connections>
+                        <outlet property="aboutTF" destination="NtJ-Ob-p83" id="VUN-3q-8Nd"/>
+                        <outlet property="belaslika1" destination="Fl8-cV-v8h" id="zOS-pD-RK9"/>
+                        <outlet property="belaslika2" destination="9Vd-MM-K8F" id="r3n-xE-DOa"/>
+                        <outlet property="belaslika3" destination="KGO-lT-AxE" id="bB4-0g-lwv"/>
+                        <outlet property="belaslika4" destination="wNW-Bw-lLa" id="Wq6-ea-DTS"/>
+                        <outlet property="belaslika5" destination="zfi-Nm-S26" id="y5o-YX-5pu"/>
+                        <outlet property="kopce" destination="2ZV-Dl-iSP" id="xe5-oW-orJ"/>
+                        <outlet property="slika" destination="3Zx-6T-fwK" id="3VK-D7-661"/>
+                        <outlet property="slika2" destination="1bj-i4-dy9" id="Cp6-9u-2Wg"/>
+                        <outlet property="slika3" destination="X7d-13-dcT" id="DNt-5p-G8z"/>
+                        <outlet property="specialtyTF" destination="jsK-Eh-KVc" id="Qu4-uR-Gab"/>
+                        <outlet property="text" destination="cW2-gt-4mo" id="5Kj-bL-9Q6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yTb-UH-Fhm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="719"/>
+        </scene>
+        <!--Потенцијални прегледи-->
+        <scene sceneID="3Yh-do-oKJ">
+            <objects>
+                <tableViewController id="67I-Tr-kXc" customClass="AppointmentsListTableViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="1HA-fE-edz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="appointmentsCell" id="05I-Vy-3ug">
+                                <rect key="frame" x="16" y="55.5" width="343" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="05I-Vy-3ug" id="62a-cH-Lll">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="67I-Tr-kXc" id="eLN-1Z-9Rc"/>
+                            <outlet property="delegate" destination="67I-Tr-kXc" id="WGw-sJ-bpL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Потенцијални прегледи" id="iqA-HI-yTz"/>
+                    <connections>
+                        <segue destination="O4D-R5-PgH" kind="show" identifier="anotherSegue" id="PUj-6a-4gb"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tda-uf-5Pz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="1471"/>
+        </scene>
+        <!--Appointments Data View Controller-->
+        <scene sceneID="ceE-Oh-Taf">
+            <objects>
+                <viewController id="O4D-R5-PgH" customClass="AppointmentsDataViewController" customModule="GradApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f9u-Z0-JfJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmw-p5-z3Z">
+                                <rect key="frame" x="111" y="56" width="152" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slikaNova" translatesAutoresizingMaskIntoConstraints="NO" id="FVc-kv-lFa">
+                                <rect key="frame" x="-10" y="184" width="394" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_12_7614191351" translatesAutoresizingMaskIntoConstraints="NO" id="6Xm-6e-TdY">
+                                <rect key="frame" x="-21" y="267" width="416" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1he-ZK-6Ir">
+                                <rect key="frame" x="36" y="212" width="252" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <color key="textColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Внеси потврди или одбиј" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hm9-6Q-awd">
+                                <rect key="frame" x="69" y="333" width="237" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09Z-cQ-UeH">
+                                <rect key="frame" x="77" y="554" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31674027440000002" green="0.59063953160000005" blue="0.89498865599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Зачувај ги промените">
+                                    <color key="titleColor" red="0.99600225689999999" green="0.9961212277" blue="0.99596184489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kopceAkcija:" destination="O4D-R5-PgH" eventType="touchUpInside" id="vbQ-HX-tei"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wKM-bI-U7e"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sBE-t0-AdM"/>
+                    <connections>
+                        <outlet property="belaSlika" destination="6Xm-6e-TdY" id="2SG-hr-Yrd"/>
+                        <outlet property="kopce" destination="09Z-cQ-UeH" id="gCa-mU-8PE"/>
+                        <outlet property="labelImePrezime" destination="1he-ZK-6Ir" id="fhd-Hd-0kh"/>
+                        <outlet property="plavaSlika" destination="1he-ZK-6Ir" id="s55-SN-EhS"/>
+                        <outlet property="slika" destination="cmw-p5-z3Z" id="YdR-9G-9Ya"/>
+                        <outlet property="textField" destination="Hm9-6Q-awd" id="HjA-eL-n0P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRa-TN-NUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="1471"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dg5-Vd-20D">
+            <objects>
+                <navigationController id="j9v-hh-qYO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AJp-JG-GVh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zpm-M7-m1C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="67I-Tr-kXc" kind="relationship" relationship="rootViewController" id="0gk-Zb-rac"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGQ-Zy-Fei" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="1472"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dEF-Mb-fVj">
+            <objects>
+                <navigationController id="oOH-eq-hb4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="U2N-i5-yPX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EOs-QD-7cU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="o1Z-cd-o7o" kind="relationship" relationship="rootViewController" id="UWc-hF-3sw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fky-ng-Atw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1370" y="720"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bela slika" width="1200" height="600"/>
+        <image name="gotovoa" width="622" height="336"/>
+        <image name="imageedit_12_7614191351" width="979" height="979"/>
+        <image name="imageedit_6_8272503083" width="900" height="769"/>
+        <image name="imageedit_9_5152557749" width="979" height="979"/>
+        <image name="logo" width="280" height="315"/>
+        <image name="output-onlinepngtools (1)" width="979" height="979"/>
+        <image name="slikaNova" width="979" height="979"/>
+    </resources>
+</document>

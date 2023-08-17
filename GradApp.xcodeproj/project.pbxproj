@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267BAFFCD73B87BFC2DC481F /* Pods_GradAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76B83B1026972C0FFD4BC4 /* Pods_GradAppUITests.framework */; };
+		41DA7A4BC143EDBA503544D5 /* Pods_GradApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D1424C97414E87BEAA47D1 /* Pods_GradApp.framework */; };
+		C41AB0D628C3494100673F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AB0D528C3494100673F6E /* AppDelegate.swift */; };
+		C41AB0D828C3494100673F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AB0D728C3494100673F6E /* SceneDelegate.swift */; };
+		C41AB0DA28C3494100673F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AB0D928C3494100673F6E /* ViewController.swift */; };
+		C41AB0DD28C3494100673F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41AB0DB28C3494100673F6E /* Main.storyboard */; };
+		C41AB0DF28C3494300673F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41AB0DE28C3494300673F6E /* Assets.xcassets */; };
+		C41AB0E228C3494300673F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41AB0E028C3494300673F6E /* LaunchScreen.storyboard */; };
+		C41AB0ED28C3494400673F6E /* GradAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AB0EC28C3494400673F6E /* GradAppTests.swift */; };
+		C41AB0F828C3494400673F6E /* GradAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AB0F728C3494400673F6E /* GradAppUITests.swift */; };
+		C41AB10628C3527D00673F6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C41AB10528C3527D00673F6E /* GoogleService-Info.plist */; };
+		C43E84FB28EC69F0009C6725 /* DoctorsDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43E84FA28EC69F0009C6725 /* DoctorsDataViewController.swift */; };
+		C43EF34728F5CCEC004753C1 /* DoctorsSpecialistsDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF34628F5CCEC004753C1 /* DoctorsSpecialistsDataViewController.swift */; };
+		C43EF34928F74A73004753C1 /* AppointmentsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF34828F74A73004753C1 /* AppointmentsListTableViewController.swift */; };
+		C43EF34B28F77BC3004753C1 /* AppointmentsDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF34A28F77BC2004753C1 /* AppointmentsDataViewController.swift */; };
+		C43EF34D28F78EA3004753C1 /* PatientsAppointmentsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF34C28F78EA3004753C1 /* PatientsAppointmentsListTableViewController.swift */; };
+		C43EF34F28F7A56C004753C1 /* PatientsAppointmentsDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF34E28F7A56C004753C1 /* PatientsAppointmentsDataViewController.swift */; };
+		C43EF35128F89CBF004753C1 /* DoctorsPatientsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF35028F89CBF004753C1 /* DoctorsPatientsListTableViewController.swift */; };
+		C43EF35328F8A038004753C1 /* DoctorsPatientsDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EF35228F8A038004753C1 /* DoctorsPatientsDataViewController.swift */; };
+		C456B4B528E4B6CC00FD35C8 /* DoctorsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456B4B428E4B6CC00FD35C8 /* DoctorsListTableViewController.swift */; };
+		C4E1C87928EE2671003B875D /* DoctorsSpecialistsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E1C87828EE2671003B875D /* DoctorsSpecialistsListTableViewController.swift */; };
+		D72E5F4551BF1BB3E39B632A /* Pods_GradAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A63DE23591B6B44411C47E /* Pods_GradAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41AB0E928C3494400673F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41AB0CA28C3494000673F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41AB0D128C3494100673F6E;
+			remoteInfo = GradApp;
+		};
+		C41AB0F428C3494400673F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41AB0CA28C3494000673F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41AB0D128C3494100673F6E;
+			remoteInfo = GradApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1148F6BABE47F6FC5BA83F6F /* Pods-GradAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradAppUITests/Pods-GradAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1967C92954209C422BACE721 /* Pods-GradAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradAppTests/Pods-GradAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31D1424C97414E87BEAA47D1 /* Pods_GradApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A63DE23591B6B44411C47E /* Pods_GradAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C0DFC449A7B233DD6B4184 /* Pods-GradApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradApp/Pods-GradApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B76B83B1026972C0FFD4BC4 /* Pods_GradAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B438AB5500926E4D732DFD11 /* Pods-GradAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradAppTests/Pods-GradAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C41AB0D228C3494100673F6E /* GradApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AB0D528C3494100673F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41AB0D728C3494100673F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C41AB0D928C3494100673F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41AB0DC28C3494100673F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41AB0DE28C3494300673F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41AB0E128C3494300673F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C41AB0E328C3494300673F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AB0E828C3494400673F6E /* GradAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AB0EC28C3494400673F6E /* GradAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradAppTests.swift; sourceTree = "<group>"; };
+		C41AB0EE28C3494400673F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AB0F328C3494400673F6E /* GradAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AB0F728C3494400673F6E /* GradAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradAppUITests.swift; sourceTree = "<group>"; };
+		C41AB0F928C3494400673F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AB10528C3527D00673F6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C43E84FA28EC69F0009C6725 /* DoctorsDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsDataViewController.swift; sourceTree = "<group>"; };
+		C43EF34628F5CCEC004753C1 /* DoctorsSpecialistsDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsSpecialistsDataViewController.swift; sourceTree = "<group>"; };
+		C43EF34828F74A73004753C1 /* AppointmentsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsListTableViewController.swift; sourceTree = "<group>"; };
+		C43EF34A28F77BC2004753C1 /* AppointmentsDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsDataViewController.swift; sourceTree = "<group>"; };
+		C43EF34C28F78EA3004753C1 /* PatientsAppointmentsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsAppointmentsListTableViewController.swift; sourceTree = "<group>"; };
+		C43EF34E28F7A56C004753C1 /* PatientsAppointmentsDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsAppointmentsDataViewController.swift; sourceTree = "<group>"; };
+		C43EF35028F89CBF004753C1 /* DoctorsPatientsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsPatientsListTableViewController.swift; sourceTree = "<group>"; };
+		C43EF35228F8A038004753C1 /* DoctorsPatientsDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsPatientsDataViewController.swift; sourceTree = "<group>"; };
+		C456B4B428E4B6CC00FD35C8 /* DoctorsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListTableViewController.swift; sourceTree = "<group>"; };
+		C4E1C87828EE2671003B875D /* DoctorsSpecialistsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsSpecialistsListTableViewController.swift; sourceTree = "<group>"; };
+		E30155D5258AFB441910B7F4 /* Pods-GradApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradApp/Pods-GradApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF42D6A3632F1AA6FE4C4D8 /* Pods-GradAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradAppUITests/Pods-GradAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41AB0CF28C3494100673F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DA7A4BC143EDBA503544D5 /* Pods_GradApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0E528C3494400673F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E5F4551BF1BB3E39B632A /* Pods_GradAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0F028C3494400673F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267BAFFCD73B87BFC2DC481F /* Pods_GradAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5369D3FD9568C8694F84B637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E30155D5258AFB441910B7F4 /* Pods-GradApp.debug.xcconfig */,
+				60C0DFC449A7B233DD6B4184 /* Pods-GradApp.release.xcconfig */,
+				1967C92954209C422BACE721 /* Pods-GradAppTests.debug.xcconfig */,
+				B438AB5500926E4D732DFD11 /* Pods-GradAppTests.release.xcconfig */,
+				1148F6BABE47F6FC5BA83F6F /* Pods-GradAppUITests.debug.xcconfig */,
+				EFF42D6A3632F1AA6FE4C4D8 /* Pods-GradAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C41AB0C928C3494000673F6E = {
+			isa = PBXGroup;
+			children = (
+				C41AB0D428C3494100673F6E /* GradApp */,
+				C41AB0EB28C3494400673F6E /* GradAppTests */,
+				C41AB0F628C3494400673F6E /* GradAppUITests */,
+				C41AB0D328C3494100673F6E /* Products */,
+				5369D3FD9568C8694F84B637 /* Pods */,
+				D46664D1256B69372042226F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C41AB0D328C3494100673F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41AB0D228C3494100673F6E /* GradApp.app */,
+				C41AB0E828C3494400673F6E /* GradAppTests.xctest */,
+				C41AB0F328C3494400673F6E /* GradAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41AB0D428C3494100673F6E /* GradApp */ = {
+			isa = PBXGroup;
+			children = (
+				C41AB0D528C3494100673F6E /* AppDelegate.swift */,
+				C41AB0D728C3494100673F6E /* SceneDelegate.swift */,
+				C41AB0D928C3494100673F6E /* ViewController.swift */,
+				C41AB0DB28C3494100673F6E /* Main.storyboard */,
+				C43EF35228F8A038004753C1 /* DoctorsPatientsDataViewController.swift */,
+				C43EF35028F89CBF004753C1 /* DoctorsPatientsListTableViewController.swift */,
+				C43EF34E28F7A56C004753C1 /* PatientsAppointmentsDataViewController.swift */,
+				C43EF34C28F78EA3004753C1 /* PatientsAppointmentsListTableViewController.swift */,
+				C43EF34A28F77BC2004753C1 /* AppointmentsDataViewController.swift */,
+				C43EF34828F74A73004753C1 /* AppointmentsListTableViewController.swift */,
+				C43EF34628F5CCEC004753C1 /* DoctorsSpecialistsDataViewController.swift */,
+				C4E1C87828EE2671003B875D /* DoctorsSpecialistsListTableViewController.swift */,
+				C43E84FA28EC69F0009C6725 /* DoctorsDataViewController.swift */,
+				C456B4B428E4B6CC00FD35C8 /* DoctorsListTableViewController.swift */,
+				C41AB0DE28C3494300673F6E /* Assets.xcassets */,
+				C41AB0E028C3494300673F6E /* LaunchScreen.storyboard */,
+				C41AB0E328C3494300673F6E /* Info.plist */,
+				C41AB10528C3527D00673F6E /* GoogleService-Info.plist */,
+			);
+			path = GradApp;
+			sourceTree = "<group>";
+		};
+		C41AB0EB28C3494400673F6E /* GradAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41AB0EC28C3494400673F6E /* GradAppTests.swift */,
+				C41AB0EE28C3494400673F6E /* Info.plist */,
+			);
+			path = GradAppTests;
+			sourceTree = "<group>";
+		};
+		C41AB0F628C3494400673F6E /* GradAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C41AB0F728C3494400673F6E /* GradAppUITests.swift */,
+				C41AB0F928C3494400673F6E /* Info.plist */,
+			);
+			path = GradAppUITests;
+			sourceTree = "<group>";
+		};
+		D46664D1256B69372042226F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31D1424C97414E87BEAA47D1 /* Pods_GradApp.framework */,
+				48A63DE23591B6B44411C47E /* Pods_GradAppTests.framework */,
+				9B76B83B1026972C0FFD4BC4 /* Pods_GradAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41AB0D128C3494100673F6E /* GradApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AB0FC28C3494400673F6E /* Build configuration list for PBXNativeTarget "GradApp" */;
+			buildPhases = (
+				A44C80D7AB52D50E5C863B1A /* [CP] Check Pods Manifest.lock */,
+				C41AB0CE28C3494100673F6E /* Sources */,
+				C41AB0CF28C3494100673F6E /* Frameworks */,
+				C41AB0D028C3494100673F6E /* Resources */,
+				78A47AF7CFC2CB35467B9EC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradApp;
+			productName = GradApp;
+			productReference = C41AB0D228C3494100673F6E /* GradApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41AB0E728C3494400673F6E /* GradAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AB0FF28C3494400673F6E /* Build configuration list for PBXNativeTarget "GradAppTests" */;
+			buildPhases = (
+				3F4D25E256F44EE4DDFD0F25 /* [CP] Check Pods Manifest.lock */,
+				C41AB0E428C3494400673F6E /* Sources */,
+				C41AB0E528C3494400673F6E /* Frameworks */,
+				C41AB0E628C3494400673F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41AB0EA28C3494400673F6E /* PBXTargetDependency */,
+			);
+			name = GradAppTests;
+			productName = GradAppTests;
+			productReference = C41AB0E828C3494400673F6E /* GradAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C41AB0F228C3494400673F6E /* GradAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41AB10228C3494400673F6E /* Build configuration list for PBXNativeTarget "GradAppUITests" */;
+			buildPhases = (
+				0AC0761523D751FEA0CA78B9 /* [CP] Check Pods Manifest.lock */,
+				C41AB0EF28C3494400673F6E /* Sources */,
+				C41AB0F028C3494400673F6E /* Frameworks */,
+				C41AB0F128C3494400673F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41AB0F528C3494400673F6E /* PBXTargetDependency */,
+			);
+			name = GradAppUITests;
+			productName = GradAppUITests;
+			productReference = C41AB0F328C3494400673F6E /* GradAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41AB0CA28C3494000673F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Marija Cholakova";
+				TargetAttributes = {
+					C41AB0D128C3494100673F6E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C41AB0E728C3494400673F6E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C41AB0D128C3494100673F6E;
+					};
+					C41AB0F228C3494400673F6E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C41AB0D128C3494100673F6E;
+					};
+				};
+			};
+			buildConfigurationList = C41AB0CD28C3494000673F6E /* Build configuration list for PBXProject "GradApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41AB0C928C3494000673F6E;
+			productRefGroup = C41AB0D328C3494100673F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41AB0D128C3494100673F6E /* GradApp */,
+				C41AB0E728C3494400673F6E /* GradAppTests */,
+				C41AB0F228C3494400673F6E /* GradAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41AB0D028C3494100673F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AB0E228C3494300673F6E /* LaunchScreen.storyboard in Resources */,
+				C41AB10628C3527D00673F6E /* GoogleService-Info.plist in Resources */,
+				C41AB0DF28C3494300673F6E /* Assets.xcassets in Resources */,
+				C41AB0DD28C3494100673F6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0E628C3494400673F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0F128C3494400673F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC0761523D751FEA0CA78B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4D25E256F44EE4DDFD0F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A47AF7CFC2CB35467B9EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GradApp/Pods-GradApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDatabase/FirebaseDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseStorage/FirebaseStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradApp/Pods-GradApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44C80D7AB52D50E5C863B1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41AB0CE28C3494100673F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C456B4B528E4B6CC00FD35C8 /* DoctorsListTableViewController.swift in Sources */,
+				C43EF34D28F78EA3004753C1 /* PatientsAppointmentsListTableViewController.swift in Sources */,
+				C43EF34F28F7A56C004753C1 /* PatientsAppointmentsDataViewController.swift in Sources */,
+				C43EF34928F74A73004753C1 /* AppointmentsListTableViewController.swift in Sources */,
+				C43EF35328F8A038004753C1 /* DoctorsPatientsDataViewController.swift in Sources */,
+				C43EF34B28F77BC3004753C1 /* AppointmentsDataViewController.swift in Sources */,
+				C4E1C87928EE2671003B875D /* DoctorsSpecialistsListTableViewController.swift in Sources */,
+				C41AB0DA28C3494100673F6E /* ViewController.swift in Sources */,
+				C43EF34728F5CCEC004753C1 /* DoctorsSpecialistsDataViewController.swift in Sources */,
+				C43EF35128F89CBF004753C1 /* DoctorsPatientsListTableViewController.swift in Sources */,
+				C43E84FB28EC69F0009C6725 /* DoctorsDataViewController.swift in Sources */,
+				C41AB0D628C3494100673F6E /* AppDelegate.swift in Sources */,
+				C41AB0D828C3494100673F6E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0E428C3494400673F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AB0ED28C3494400673F6E /* GradAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB0EF28C3494400673F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41AB0F828C3494400673F6E /* GradAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41AB0EA28C3494400673F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41AB0D128C3494100673F6E /* GradApp */;
+			targetProxy = C41AB0E928C3494400673F6E /* PBXContainerItemProxy */;
+		};
+		C41AB0F528C3494400673F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41AB0D128C3494100673F6E /* GradApp */;
+			targetProxy = C41AB0F428C3494400673F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41AB0DB28C3494100673F6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41AB0DC28C3494100673F6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41AB0E028C3494300673F6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41AB0E128C3494300673F6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41AB0FA28C3494400673F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C41AB0FB28C3494400673F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41AB0FD28C3494400673F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30155D5258AFB441910B7F4 /* Pods-GradApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41AB0FE28C3494400673F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C0DFC449A7B233DD6B4184 /* Pods-GradApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C41AB10028C3494400673F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1967C92954209C422BACE721 /* Pods-GradAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradApp.app/GradApp";
+			};
+			name = Debug;
+		};
+		C41AB10128C3494400673F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B438AB5500926E4D732DFD11 /* Pods-GradAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradApp.app/GradApp";
+			};
+			name = Release;
+		};
+		C41AB10328C3494400673F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1148F6BABE47F6FC5BA83F6F /* Pods-GradAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradApp;
+			};
+			name = Debug;
+		};
+		C41AB10428C3494400673F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF42D6A3632F1AA6FE4C4D8 /* Pods-GradAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6M4Q47TRA;
+				INFOPLIST_FILE = GradAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marija.GradAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41AB0CD28C3494000673F6E /* Build configuration list for PBXProject "GradApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AB0FA28C3494400673F6E /* Debug */,
+				C41AB0FB28C3494400673F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41AB0FC28C3494400673F6E /* Build configuration list for PBXNativeTarget "GradApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AB0FD28C3494400673F6E /* Debug */,
+				C41AB0FE28C3494400673F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41AB0FF28C3494400673F6E /* Build configuration list for PBXNativeTarget "GradAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AB10028C3494400673F6E /* Debug */,
+				C41AB10128C3494400673F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41AB10228C3494400673F6E /* Build configuration list for PBXNativeTarget "GradAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41AB10328C3494400673F6E /* Debug */,
+				C41AB10428C3494400673F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41AB0CA28C3494000673F6E /* Project object */;
+}
